@@ -1,0 +1,46 @@
+/* sidebar.css */
+
+/* Sidebar container */
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    position: fixed;
+    background-color: #388e3c; /* Dark green */
+    padding-top: 20px;
+}
+
+/* Sidebar header */
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Sidebar list */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Sidebar links */
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for links */
+.sidebar ul li a:hover {
+    background-color: #388e3c; /* Lighter green */
+    border-radius: 5px;
+}
+
+/* Active link styling */
+.sidebar ul li a.active {
+    background-color: #1b5e20; /* Darker green */
+    font-weight: bold;
+    border-radius: 5px;
+}
