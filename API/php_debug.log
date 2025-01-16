@@ -1,0 +1,11 @@
+{
+    "success": true,
+    "pickup": {
+        "pickup_id": 106,
+        "weight_kg": "XL",
+        "e_waste_type": "Type 3",
+        "status": "Completed",
+        "created_at": "2024-12-05 14:09:54",
+        "price": null
+    }
+}
